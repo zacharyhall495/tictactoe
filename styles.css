@@ -4,90 +4,28 @@
     padding-top: 3em;
 }
 
-#row {
-    height: 100px;
-    margin-left: 800px;
-    margin-right: auto;
-    width: 302px;
-}
-
-.top#left {
+.row > div {
+    float: left;
     height: 100px;
     width: 100px;
-    border-bottom: 15px, solid, red;
-    border-right: 15px solid, black;
-    background-color: white;
-    float: left;
+   
 }
 
-.top#middle {
-    height: 100px;
-    width: 100px;
-    border-bottom: 15px, solid, red;
-    border-left: 15px, solid, black;
-    background-color: white;
-    float: left;
+.row {
+    clear: both;
+    width: 302PX;
+    margin: auto;
 }
 
-.top#right {
-    height: 100px;
-    width: 100px;
-    border-bottom: 15px, solid, red;
-    background-color: white;
-    float: left;
+.top {
+    border-bottom: 1px solid rgb(137, 241, 17);
 }
 
-hr {
-    width: 300px;
-    padding-top: 0;
-    padding-bottom: 0;
+.middle{
+    border-left: 1px solid rgb(233, 41, 185);
+    border-right: 1px solid rgb(45, 33, 221);
 }
 
-.center#left {
-    height: 100px;
-    width: 100px;
-    border-top: 15px, solid, rgb(247, 247, 250);
-    background-color: white;
-    float: left;
-}
-
-.center#middle {
-    height: 100px;
-    width: 100px;
-    border-bottom: 15px, solid, red;
-    background-color: white;
-    float: left;
-}
-
-.center#right {
-    align-items: center;
-    height: 100px;
-    width: 100px;
-    border-bottom: 15px, black, solid;
-    background-color: white;
-    float: left;
-}
-
-.bottom#left {
-    height: 100px;
-    width: 100px;
-    border-bottom: 15px, solid, rgb(211, 27, 27);
-    background-color: white;
-    float: left;
-}
-
-.bottom#middle {
-    height: 100px;
-    width: 100px;
-    border-bottom: 15px, solid, red;
-    background-color: white;
-    float: left;
-}
-
-.bottom#right {
-    height: 100px;
-    width: 100px;
-    border-bottom: 15px, solid, red;
-    background-color: white;
-    float: left;
+.bottom {
+    border-top: 1px solid rgb(223, 23, 23);
 }
